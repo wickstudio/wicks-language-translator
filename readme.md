@@ -12,7 +12,7 @@ Wicks Language Translator is a custom language translation website that translat
 
 ## Demo
 
-You can try the live demo [here](https://wickdev.xyz/).
+You can try the live demo [here](https://wicks-translator.vercel.app/).
 
 ## Screenshots
 
