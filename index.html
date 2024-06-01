@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wicks Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="FULL.png" alt="Logo" id="logo">
+            <h1>Wicks Language Translator</h1>
+        </div>
+        <button id="theme-toggle"><i class="fas fa-adjust"></i> Switch Theme</button>
+    </header>
+    <main>
+        <div class="container">
+            <div class="input-container">
+                <div class="translation-section">
+                    <h2>Text to Wicks</h2>
+                    <textarea id="arabic-input" placeholder="Enter text here"></textarea>
+                    <button class="copy-btn" data-copy-target="arabic-input" title="Copy text"><i class="fas fa-copy"></i> Copy</button>
+                    <textarea id="wicks-output" placeholder="Translated text will appear here" readonly></textarea>
+                    <button class="copy-btn" data-copy-target="wicks-output" title="Copy Wicks text"><i class="fas fa-copy"></i> Copy</button>
+                    <button id="translate-to-wicks"><i class="fas fa-exchange-alt"></i> Translate to Wicks</button>
+                </div>
+                <div class="translation-section">
+                    <h2>Wicks to Text</h2>
+                    <textarea id="wicks-input" placeholder="Enter Wicks text here"></textarea>
+                    <button class="copy-btn" data-copy-target="wicks-input" title="Copy Wicks text"><i class="fas fa-copy"></i> Copy</button>
+                    <textarea id="arabic-output" placeholder="Translated text will appear here" readonly></textarea>
+                    <button class="copy-btn" data-copy-target="arabic-output" title="Copy text"><i class="fas fa-copy"></i> Copy</button>
+                    <button id="translate-to-arabic"><i class="fas fa-exchange-alt"></i> Translate to Text</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Wicks Language Translator. All rights reserved.</p>
+    </footer>
+    <div id="toast"></div>
+    <script src="script.js"></script>
+</body>
+</html>
